@@ -11,36 +11,36 @@ class Directory extends React.Component {
     this.state = {
       sections: [
         {
-          title: 'Hats',
-          imageUrl: 'http://www.ecubookstore.com/storeimages/257-1543157-1.JPG',
+          title: 'hats',
+          imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
           id: 1,
-          linkUrl:'hats'
+          linkUrl: 'hats'
         },
         {
-          title: 'Jackets',
-          imageUrl: 'http://www.ecubookstore.com/storeimages/257-1542896-1.JPG',
+          title: 'jackets',
+          imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
           id: 2,
-          linkUrl:'jackets'
+          linkUrl: ''
         },
         {
-          title: 'Tshirts',
-          imageUrl: 'http://www.ecubookstore.com/storeimages/257-1563279-1.jpg',
+          title: 'sneakers',
+          imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
           id: 3,
-          linkUrl:''
+          linkUrl: ''
         },
         {
-          title: 'Hoddies',
-          imageUrl: 'http://www.ecubookstore.com/storeimages/257-1539559-1.JPG',
-          size: '',
+          title: 'womens',
+          imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+          size: 'large',
           id: 4,
-          linkUrl:''
+          linkUrl: ''
         },
         {
-          title: 'Mugs',
-          imageUrl: 'http://www.ecubookstore.com/storeimages/257-1199335-1.jpg',
+          title: 'mens',
+          imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
           size: 'large',
           id: 5,
-          linkUrl:''
+          linkUrl: ''
         }
       ]
     };
@@ -49,12 +49,12 @@ class Directory extends React.Component {
   render() {
     return (
       <div className='directory-menu'>
-        {this.state.sections.map(({ id, ...otherSectionProps}) => (
+        {this.state.sections.map(({ id, ...otherSectionProps }) => (
           <MenuItem key={id} {...otherSectionProps} />
         ))}
       </div>
     );
   }
 }
-export default Directory;
 
+export default Directory;
