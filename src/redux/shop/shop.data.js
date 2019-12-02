@@ -165,9 +165,12 @@ const SHOP_DATA = {
       },
       {
         id: 24,
-        name: 'Polo-ECU',
+        name: 'Polo-ECU-Ladies',
         imageUrl: 'http://www.ecubookstore.com/storeimages/257-1542894-1.JPG',
-        price: 20
+        price: 25
+      },
+      {
+        
       },
       
     ]
@@ -200,7 +203,8 @@ const SHOP_DATA = {
         name: 'Polo ECU Men',
         imageUrl: 'http://www.ecubookstore.com/storeimages/257-1523420-1.jpg',
         price: 25
-      }
+      },
+      
     ]
   }
 };
